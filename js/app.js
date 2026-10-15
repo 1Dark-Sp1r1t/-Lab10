@@ -10,8 +10,8 @@ function decodeHTML(html) {
 }
 
 // Крок 4: Створення компонента елемента/списку згідно з варіантом 8
-// Крок 4: Створення компонента елемента/списку згідно з варіантом 8
 const QuizQuestion = {
+  name: 'QuizQuestion',
   props: ['question', 'options', 'correctAnswer', 'hasAnswered', 'selectedAnswer'],
   emits: ['answer'], 
   template: `
